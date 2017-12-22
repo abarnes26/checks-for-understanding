@@ -10,10 +10,15 @@ Note: When you're done, submit a PR with a reflection in the comments about how 
 ### Questions
 
 * What is a cookie?
+-- a hash of data stored on the clients machine that carrys with it user identification tags and corresponding data.
 * What’s the difference between a session and a cookie?
+-- a session is a hash that persists from page to page and stores user information data.
 * What’s a flash and when do you want to use flashes?
+-- A message to display a notice (usually either success or failure of a function).
 * Why do people say “HTTP is stateless”?
+-- An Http request doesn't carry data from previous requests with it, i.e. each request is as if it was the very first request.
 * What’s authentication? Explain.
+-- 
 * What’s the difference between authentication and authorization?
 * What’s a before filter?
 * How do we keep track of a user once they’ve logged in?
